@@ -17,13 +17,14 @@ Apasionado por la construcción de sistemas robustos, arquitectura de software l
 
 ### 🛠️ Proyectos Destacados
 
-* **[GetOut](https://github.com/PabloTwoElf)**: Plataforma de ticketing y control de accesos para eventos masivos con soporte de conectividad satelital y validación QR offline/online.
-* **[CulturalTrip](https://github.com/PabloTwoElf)**: Sistema web para reservas de pasajes de autobús, selección de asientos y generación de códigos QR dinámicos en Ecuador.
-* **[FinderAllFans](https://github.com/PabloTwoElf)**: Plataforma web conectando creadores con suscriptores mediante algoritmos de recomendación y esquemas de autorización multi-rol.
+* **GetOut**: Plataforma de ticketing y control de accesos para eventos masivos con soporte de conectividad satelital y validación QR offline/online. *(Repositorio en desarrollo)*
+* **CulturalTrip**: Sistema web para reservas de pasajes de autobús, selección de asientos y generación de códigos QR dinámicos en Ecuador. *(Repositorio en desarrollo)*
+* **FinderAllFans**: Plataforma web conectando creadores con suscriptores mediante algoritmos de recomendación y esquemas de autorización multi-rol. *(Repositorio en desarrollo)*
 
 ---
 
 ### 📊 Estadísticas de GitHub
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PabloTwoElf&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PabloTwoElf&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
 </p>
