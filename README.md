@@ -22,9 +22,8 @@ Apasionado por la construcción de sistemas robustos, arquitectura de software l
 * **FinderAllFans**: Plataforma web conectando creadores con suscriptores mediante algoritmos de recomendación y esquemas de autorización multi-rol. *(Repositorio en desarrollo)*
 
 ---
-
 ### 📊 Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PabloTwoElf&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PabloTwoElf&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
