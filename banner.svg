@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Pablo Criollo Escobar, ingeniero de software que trabaja con IA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1b0f3a"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="6"/></filter>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+      .sans{font-family:'Segoe UI',Inter,Arial,sans-serif}
+      .l{opacity:0;animation:show 12s infinite}
+      .l1{animation-delay:0s}.l2{animation-delay:1.2s}.l3{animation-delay:2.6s}.l4{animation-delay:4.2s}.l5{animation-delay:5.8s}
+      @keyframes show{0%{opacity:0}4%{opacity:1}92%{opacity:1}100%{opacity:0}}
+      .cur{animation:blink 1s steps(2) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 3s ease-in-out infinite;transform-origin:center}
+      @keyframes pulse{50%{opacity:.35}}
+      .dash{stroke-dasharray:6 8;animation:flow 2s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-28}}
+    </style>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <circle cx="1010" cy="160" r="120" fill="#7c3aed" opacity=".35" filter="url(#glow)" class="pulse"/>
+  <circle cx="190" cy="40" r="90" fill="#06b6d4" opacity=".2" filter="url(#glow)" class="pulse"/>
+
+  <text x="60" y="92" class="sans" font-size="54" font-weight="800" fill="#fff">Pablo Criollo Escobar</text>
+  <text x="62" y="130" class="sans" font-size="22" fill="url(#ac)" font-weight="600">Ingeniero de software × IA · Backend · Automatización · Sistemas seguros</text>
+
+  <rect x="60" y="160" width="620" height="124" rx="12" fill="#05070f" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="82" cy="180" r="5" fill="#ff5f56"/><circle cx="100" cy="180" r="5" fill="#ffbd2e"/><circle cx="118" cy="180" r="5" fill="#27c93f"/>
+  <g class="mono" font-size="15">
+    <text x="82" y="210" class="l l1" fill="#22d3ee">$ <tspan fill="#e5e7eb">claude "diseña el sistema"</tspan></text>
+    <text x="82" y="231" class="l l2" fill="#a78bfa">  ia ▸ propone arquitectura, código y pruebas</text>
+    <text x="82" y="252" class="l l3" fill="#fbbf24">  yo ▸ defino límites, reviso y decido</text>
+    <text x="82" y="273" class="l l4" fill="#34d399">  ✔ tests · semgrep · despliegue con vuelta atrás</text>
+    <text x="640" y="273" class="l l5 cur" fill="#22d3ee">▍</text>
+  </g>
+
+  <g transform="translate(760,150)">
+    <rect x="0" y="40" width="130" height="64" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+    <text x="65" y="78" text-anchor="middle" class="sans" font-size="20" font-weight="700" fill="#22d3ee">HUMANO</text>
+    <text x="65" y="98" text-anchor="middle" class="sans" font-size="12" fill="#94a3b8">criterio</text>
+    <rect x="230" y="40" width="130" height="64" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+    <text x="295" y="78" text-anchor="middle" class="sans" font-size="20" font-weight="700" fill="#a78bfa">IA</text>
+    <text x="295" y="98" text-anchor="middle" class="sans" font-size="12" fill="#94a3b8">velocidad</text>
+    <path d="M130 62 H230" stroke="url(#ac)" stroke-width="3" class="dash" fill="none"/>
+    <path d="M230 84 H130" stroke="url(#ac)" stroke-width="3" class="dash" fill="none"/>
+    <text x="180" y="150" text-anchor="middle" class="mono" font-size="13" fill="#94a3b8">ciclo corto, revisión humana</text>
+  </g>
+</svg>
