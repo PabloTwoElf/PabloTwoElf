@@ -16,7 +16,7 @@ La mayoría de perfiles listan tecnologías. Prefiero contarte qué pasa cuando 
 
 | Situación real | Lo que construí | Decisión de diseño clave |
 |---|---|---|
-| Un evento masivo en un lugar sin cobertura: la validación de entradas no puede depender de internet. | **GetOut**, ticketing y control de accesos con enlace satelital y validación QR **offline/online**. | Cada punto de acceso valida localmente y sincroniza cuando hay enlace; la fuente de verdad se reconcilia, no se bloquea. |
+| Un evento masivo en un lugar sin cobertura: la validación de entradas no puede depender de internet.
 | Compradores eligiendo el mismo asiento al mismo tiempo en una venta de pasajes. | **CulturalTrip**, reservas de bus con selección de asientos y QR dinámicos. | Reservas con expiración y bloqueo pesimista en base de datos; el QR cambia para que una captura de pantalla no sirva dos veces. |
 | Creadores, suscriptores y administradores con permisos que se cruzan. | **FinderAllFans**, plataforma de suscripciones con recomendaciones y autorización multi-rol. | Reglas de autorización centralizadas en el dominio, no repartidas por los controladores. |
 | Una institución que necesita atender llamadas y mensajes sin un equipo 24/7. | Agentes de voz y flujos con **Retell AI** y **n8n** integrados con LLMs. | El agente nunca decide solo: cada acción pasa por un flujo auditable con reglas explícitas. |
